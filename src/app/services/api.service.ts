@@ -14,9 +14,9 @@ export class ApiService {
   constructor(private http: HttpClient) {}
 
   getCurrentWeather(location: string) {
-    return this.http.get<ICurrent[]>(`http://api.weatherapi.com/v1/current.json?key=${this.apiKey}&q=${location}&aqi=no`);
+    return this.http.get<ICurrent[]>(`https://api.weatherapi.com/v1/current.json?key=${this.apiKey}&q=${location}&aqi=no`);
   }
   getForecastWeather(location: string){
-    return this.http.get<IForecast[]>(`http://api.weatherapi.com/v1/forecast.json?key=${this.apiKey}&q=${location}&days=6&aqi=no&alerts=no\n`)
+    return this.http.get<IForecast[]>(`https://api.weatherapi.com/v1/forecast.json?key=${this.apiKey}&q=${location}&days=6&aqi=no&alerts=no\n`)
   }
 }
