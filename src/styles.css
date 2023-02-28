@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  min-height: 100%;
+  background-image: linear-gradient(to right top, #478ed3, #5593d7, #6297db, #6d9cde, #78a1e2, #67a8e7, #52aeea, #39b4eb, #00bce1, #00c1cb, #00c4ab, #41c487);
+
+}
+html{
+  height: 100%;
+}

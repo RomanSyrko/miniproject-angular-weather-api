@@ -1,0 +1,77 @@
+.container {
+  width: 640px;
+  height: 500px;
+  padding: 50px;
+  border-radius: 20px;
+  background: #00000012;
+  animation: ani1 2.5s ease-out forwards;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px,
+  rgba(0, 0, 0, 0.12) 0 -12px 30px,
+  rgba(0, 0, 0, 0.12) 0 4px 6px,
+  rgba(0, 0, 0, 0.17) 0 12px 13px,
+  rgba(0, 0, 0, 0.09) 0 -3px 5px;
+}
+
+@keyframes ani1 {
+  100% {
+    transition: opacity 2s;
+    transform: scale(1.05);
+  }
+}
+
+.dpFlex {
+  display: flex;
+}
+
+.jcsb {
+  justify-content: space-between;
+}
+
+.fdc {
+  flex-direction: column;
+}
+
+.aic {
+  align-items: center;
+}
+
+button {
+  box-shadow: rgba(50, 50, 93, 0.25) 0 2px 5px -1px, rgba(0, 0, 0, 0.3) 0 1px 3px -1px;
+  color: white;
+}
+
+.navbar-s {
+  background: #4F89D4FF;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px,
+  rgba(0, 0, 0, 0.12) 0 -12px 30px,
+  rgba(0, 0, 0, 0.12) 0 4px 6px,
+  rgba(0, 0, 0, 0.17) 0 12px 13px,
+  rgba(0, 0, 0, 0.09) 0 -3px 5px;
+  border-radius: 0 0 10px 10px;
+}
+
+.cw {
+  color: white;
+}
+
+input[type='search'], textarea {
+  background: rgba(65, 196, 135, 0.48);
+  border: none;
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+}
+
+.fs100 {
+  font-size: 100px;
+}
+
+.mg5 {
+  margin-top: 5%;
+}
+
+.w145 {
+  width: 145px;
+}
